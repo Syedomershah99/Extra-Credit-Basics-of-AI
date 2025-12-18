@@ -1,0 +1,33 @@
+# --- Local env / notebooks ---
+venv/
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+
+# --- Raw InsideAirbnb data (DO NOT COMMIT) ---
+Austin/**/listings.csv
+Austin/**/calendar.csv
+
+Chicago/**/listings.csv
+Chicago/**/calendar.csv
+
+Santa_Cruz/**/listings.csv
+Santa_Cruz/**/calendar.csv
+
+WashingtonDC/**/listings.csv
+WashingtonDC/**/calendar.csv
+
+# If you sometimes keep the gz files too:
+Austin/**/listings.csv.gz
+Austin/**/calendar.csv.gz
+Chicago/**/listings.csv.gz
+Chicago/**/calendar.csv.gz
+Santa_Cruz/**/listings.csv.gz
+Santa_Cruz/**/calendar.csv.gz
+WashingtonDC/**/listings.csv.gz
+WashingtonDC/**/calendar.csv.gz
+
+# --- Optional generated artifacts ---
+cache_panels/
+logs/
